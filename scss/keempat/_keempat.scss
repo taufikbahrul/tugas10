@@ -1,0 +1,35 @@
+#keempat {
+    padding-top: 60px;
+
+    .container {
+        width: 1056px;
+
+        .heading4 {
+            border-bottom: 2px solid #D1A358;
+            background-position: right 5px;
+            background-repeat: no-repeat;
+            margin-bottom: 24px;
+            padding-top: 50px;
+            font-size: 24px;
+
+        }
+
+        .row4 {
+            img {
+                height: 400px;
+                width: 320px;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .gambar2 {
+                float: left;
+                padding-right: 31px;
+
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}

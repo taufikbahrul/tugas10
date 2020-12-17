@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#pertama {
+  background: url(../asset/imag.jpg);
+  width: 100%;
+  height: 804px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pertama .container {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1200px;
+}
+
+#pertama .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#pertama .container nav .gambarnav {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#pertama .container nav .gambarnav img {
+  width: 170px;
+  height: 80px;
+}
+
+#pertama .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+#pertama .container nav ul li {
+  margin: 20px;
+  display: inline;
+}
+
+#pertama .container nav ul li:nth-child(4) {
+  margin-right: 0px;
+}
+
+#pertama .container .konten {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 160px auto;
+}
+
+#pertama .container .konten .kanan {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  width: 40%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#pertama .container .konten .kanan .isikanan {
+  position: absolute;
+  left: 0;
+  margin-top: 400px;
+}
+
+#pertama .container .konten .kanan .isikanan .isikanan h1 {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: white;
+}
+
+#pertama .container .konten .kanan .isikanan .isikanan h1 {
+  font-size: 15px;
+}
+
+#pertama .container .konten .kanan .isikanan .isikanan p {
+  text-align: left;
+  line-height: 40px;
+  font-weight: lighter;
+  font-size: 35px;
+  border-bottom: 1px solid #fff;
+}
+
+#kedua {
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 45px;
+  background: #fff;
+}
+
+#kedua .container .heading2 {
+  border-bottom: 2px solid #D1A358;
+  margin-bottom: 24px;
+  padding-top: 30px;
+}
+
+#kedua .container .heading2 h2 {
+  margin: 0 0 15px;
+  font-size: 24px;
+}
+
+#ketiga {
+  padding-top: 100px;
+}
+
+#ketiga .container {
+  width: 1056px;
+}
+
+#ketiga .container .heading3 {
+  border-bottom: 2px solid #D1A358;
+  background-position: right 5px;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+#ketiga .container .row3 .gambar {
+  float: left;
+  padding-right: 31px;
+  position: relative;
+  display: block;
+}
+
+#ketiga .container .row3 .gambar img {
+  width: 320px;
+}
+
+#ketiga .container .row3 .gambar img .featured-content {
+  text-align: center;
+  padding: 30px;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  white-space: nowrap;
+}
+
+#keempat {
+  padding-top: 60px;
+}
+
+#keempat .container {
+  width: 1056px;
+}
+
+#keempat .container .heading4 {
+  border-bottom: 2px solid #D1A358;
+  background-position: right 5px;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+#keempat .container .row4 img {
+  height: 400px;
+  width: 320px;
+  background-position: center;
+  background-size: cover;
+}
+
+#keempat .container .row4 .gambar2 {
+  float: left;
+  padding-right: 31px;
+}
+
+#keempat .container .row4 .gambar2 img {
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */
